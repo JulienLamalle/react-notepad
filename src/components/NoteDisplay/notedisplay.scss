@@ -1,0 +1,24 @@
+.divnote {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 20px;
+  height: 53vh;
+
+  .divtitle {
+    height: 120px;
+    color: #F8432B;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+    overflow-x: auto;
+  }
+
+  .divnotecontent {
+    font-size: 1.3rem;
+    overflow-wrap: anywhere;
+    overflow: auto;
+  }
+}
